@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_3sdp"
+    android:elevation="@dimen/_4sdp"
+    app:cardCornerRadius="@dimen/_1sdp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:id="@+id/category_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_140sdp"
+            android:scaleType="centerCrop" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_140sdp"
+            android:background="@color/transparent_black_30" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/category_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:fontFamily="@font/aclonica"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingBottom="@dimen/_4sdp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/white" />
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

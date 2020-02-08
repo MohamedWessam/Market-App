@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Full screen theme. -->
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Light status bar theme. -->
+    <style name="Theme.AppCompat.Light.NoActionBar.LightStatusBar" parent="AppTheme">
+        <item name="android:statusBarColor">@color/transparent_black_20</item>
+    </style>
+
+    <!-- Dark status bar theme. -->
+    <style name="Theme.AppCompat.Light.NoActionBar.DarkStatusBar" parent="AppTheme">
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>

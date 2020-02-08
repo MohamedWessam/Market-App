@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">Fresh Market Demo</string>
+
+    <!-- General -->
+    <string name="drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="drawer_close" translatable="false">Close navigation drawer</string>
+
+    <!-- On Boarding Activity -->
+    <string name="on_boarding_title1">Fresh Food</string>
+    <string name="on_boarding_title2">Healthy Food</string>
+    <string name="on_boarding_title3">Delivery</string>
+    <string name="on_boarding_description1">Fresh Food Market is one of those places that you’re not quite sure what it is until you go there.</string>
+    <string name="on_boarding_description2">It’s going to be a blast! They have everything here. They have everything here and the ingredients for different cuisines are conveniently place together.</string>
+    <string name="on_boarding_description3">we deliver it to you! Fast Delivery. Delivery Around Egypt</string>
+    <string name="get_started">GET STARTED</string>
+
+
+    <!-- Tool Bar -->
+    <string name="search">Search</string>
+    <string name="cart">Cart</string>
+
+    <!-- Navigation Menu -->
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="sort_by">Sort by</string>
+    <string name="filter">Filter</string>
+
+    <!-- Home Activity -->
+
+</resources>
